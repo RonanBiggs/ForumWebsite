@@ -1,0 +1,38 @@
+body {
+    background: #feadff;
+    cursor: url(/uploads/anabeads.png), auto;
+}
+
+
+.post {
+    border: 3px ridge #8A8A8A;
+    background: #DADADA;
+    padding: 7px;
+    width: max-content;
+}
+
+.leftpart {
+    background: #DADADA;
+    border: 5px ridge #8A8A8A
+}
+
+a {
+    color: #4c00b0;
+}
+a:hover {
+    cursor: url(/uploads/anabeads.png), auto;
+}
+
+.resizable-image {
+    width: 500px;
+    transition: width 0.3s ease;
+}
+.resizable-image.enlarged {
+    width: auto;
+}
+.post-info {
+    color: green;
+    background: #cacabc;
+    border: 2px ridge #8A8A8A;
+    width: max-content;
+}
